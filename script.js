@@ -76,7 +76,7 @@ else{
 
 function restart(){
 currentPlayer="X";
-let options=["", "" ,"" ,"" ,"" ,"" ,"" ,"" ,""];
+options=["", "" ,"" ,"" ,"" ,"" ,"" ,"" ,""];
 current.textContent=`${currentPlayer}'s turn`;
 cells.forEach(cell=> cell.textContent="");
 running=true;
