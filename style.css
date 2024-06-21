@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkslateblue; 
+    text-align: center;
+    color: white;
+    
+}
+ #title{
+font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+        font-size: 45px;
+        text-align: center;
+        color: white;
+        margin-bottom: 75px;
+}
+.cell{
+    width :75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px black;
+    line-height: 70px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+#container{
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    grid-template-rows: 33% 33% 33%;
+    margin: auto;
+    width: 225px;
+    
+}
+div.cell:hover{
+    background-color: black;
+}
+#reset{
+    background-color: darkslateblue;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 35px;
+    margin: auto;
+    color: black;
+}
+#current{
+    font-size: 2em;
+}
